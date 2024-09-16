@@ -1,0 +1,85 @@
+body{
+    background-color: #FEFEFE;
+    font-family: "Merriweather",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main{
+    margin: 0 auto;
+    width: 70%;
+}
+nav{
+    padding: 20px 10px;
+    margin: auto;
+    border-bottom: 2px solid #f0e1e1;
+}
+nav a{
+    text-decoration: none;
+}
+nav .btn{
+    border: 1px solid rgb(99, 99, 174);
+    color: blue;
+}
+nav span{
+    float:  right;
+}
+nav span a{
+    margin-right: 5px;
+}
+.presentation{
+    padding: 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-profil img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+/* Projets */
+.projets .container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.projets article{
+    display: grid;
+    /* grid-template-columns: auto auto; */
+    grid-template-columns: auto 1fr;
+    margin-bottom: 20px;
+}
+.projet-description{
+    padding: 2em 2em;
+}
+.direction-rtl{
+    direction: rtl;
+}
+.projets img{
+    width: 400px;
+    height: 400px;
+}
+
+.ss-projet{
+    text-align: right;
+}
+.gau article h3 a{
+    text-decoration: none;
+}
+.articles h2{
+    margin-left: 10px;
+}
+
+/* footer */
+footer{
+    padding: 20px 10px;
+}
+.icons a{
+    text-decoration: none;
+    padding: 5px;
+}
+.icons a img{
+    color: blue;
+}
+footer .icons{
+    float: right;
+}
